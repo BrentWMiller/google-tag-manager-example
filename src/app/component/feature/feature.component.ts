@@ -29,7 +29,7 @@ export class FeatureComponent implements OnInit {
 
 		console.log(this.dataObject);
 
-		// window['dataLayer'].push(this.dataObject);
+		window['dataLayer'].push(this.dataObject);
 	}
 
 }
