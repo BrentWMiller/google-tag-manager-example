@@ -3,7 +3,7 @@
   <div class="feature__description">{{ description }}</div>
   <div class="feature__title">{{ title }}</div>
   <div>
-    <button class="btn">{{ link }}</button>
-    <button class="btn">{{ linkAlt }}</button>
+    <button class="btn" (click)="linkClicked(link);">{{ link }}</button>
+    <button class="btn" (click)="linkClicked(linkAlt);">{{ linkAlt }}</button>
   </div>
 </div>
